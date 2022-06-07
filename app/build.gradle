@@ -56,9 +56,9 @@ dependencies {
 
 
 
-    def room_version = "2.2.1"
-    def kodein_version = "6.4.0"
-    def lifecycle_version = "2.0.0"
+    def room_version = '2.4.2'
+    def kodein_version = '7.12.0'
+    def lifecycle_version = '2.4.1'
 
     // Room and Architectural Components
     implementation "androidx.room:room-runtime:$room_version"
@@ -69,8 +69,8 @@ dependencies {
     kapt "androidx.room:room-compiler:$room_version"
 
     // Coroutines
-    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2'
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2"
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.2'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.2'
 
     // New Material Design
     implementation "com.google.android.material:material:1.6.1"
