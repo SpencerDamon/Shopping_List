@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
-    // Added, had to comment out version to compile
+    // Added, had to comment out version
     id "org.jetbrains.kotlin.kapt" // version "1.7.0-RC2"
 }
 
